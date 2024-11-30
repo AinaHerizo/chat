@@ -1,0 +1,123 @@
+.container {
+    margin: 0 100px;
+    border: 1px solid black;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+.about {
+    padding-left: 10px;
+}
+.nom {
+    font-weight: bold;
+    font-size: 30px;
+}
+.info {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.contact ul {
+    display: flex;
+}
+.contact ul li {
+    list-style: none;
+    padding: 10px;
+    border: 1px solid #d0c9c9;
+    border-radius: 5px;
+    margin: 0px 5px;
+}
+a {
+    color: blue;
+    font-size: 30px;
+}
+.chat_box {
+    display: flex;
+    flex-direction: column-reverse;
+    height: 150px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    position: relative;
+    background: #eaeaea;
+    overflow-y: scroll;
+}
+.contain_message {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.message_ecrit {
+    background: #0028fb;
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+    width: max-content;
+    height: fit-content;
+    border-radius: 5px;
+    color: white;
+}
+.date {
+    font-weight: bold;
+    text-align: center;
+}
+.message {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.whrite {
+    width: 50%;
+    padding: 5px;
+    max-height: 60px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-left: 10px;
+    background: #eaeaea;
+    overflow: auto;
+    outline: none;
+}
+.option {
+    position: relative;
+    z-index: 1;
+}
+.option ul {
+    display: flex;
+    padding: 0px;
+}
+.option ul li{
+    list-style: none;
+    margin: 0px 5px;
+    padding: 10px;
+}
+.emoji {
+    position: relative;
+}
+.emoji_content {
+    width: 200px;
+    height: max-content;
+    border: 1px solid black;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 2;
+    background: white;
+    display: block;
+}
+.hide {
+    display: none;
+}
+.emoji_content img {
+    width: 30px;
+    cursor: pointer;
+}
+.emoji_picture {
+    width: 20px;
+    vertical-align: middle;
+}
+.envoyer {
+    background: #0028fb;
+    border-radius: 100%;
+}
+.envoyer a{
+    color: white;
+}
